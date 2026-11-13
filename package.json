@@ -1,0 +1,19 @@
+{
+  "name": "eventhub_playwright_bdd_framework",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:cucumber": "cucumber-js --config cucumber/cucumber.js"
+  },
+  "keywords": [],
+  "type": "module",
+  "devDependencies": {
+    "@cucumber/cucumber": "^13.3.0",
+    "@playwright/test": "^1.65.0"
+  },
+  "dependencies": {
+    "dotenv": "^18.0.10"
+  }
+}
