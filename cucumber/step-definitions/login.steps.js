@@ -20,3 +20,15 @@ Then("the user should see the EventHub dashboard", async function () {
     .getByRole("link", { name: /Browse Events →/ })
     .waitFor({ state: "visible" });
 });
+
+Given("the user is on the eventhub dashboard page", async function() {
+
+});
+
+When("the user clicks on the logout button", async function() {
+  
+});
+
+Then("the user should be redirected back to the Login page.", async function() {
+  
+});
